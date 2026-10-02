@@ -31,3 +31,10 @@ ts_iso,session,dosya,islem,okunan_satir,toplam_satir,bytes,tok_tahmini,kural,ger
 2026-10-03T02:11+03:00,O26,boot turlari (README+PROTOCOL+STATE+TASKS+DEVR.md),read,314,314,~40000,~11000,boot (K2 istisna),O26 boot — zorunlu okumalar (O19 dersi)
 2026-10-03T02:11+03:00,O26,arama turlari (kaldirac/MTP/128k + DATA-POLICY §6 + baseline),search,~45,~45,~4500,~1500,-,kaldirac ayar listesi + sessiz-stop mekanizmasi dogrulamasi
 2026-10-03T02:11+03:00,O26,edit turlari (STATE+TASKS+DECISIONS+DEVR),edit,142,142,~22000,~6500,K2-batch OK,O26 onay kayitlari (4 dosya, her biri TEK coklu-edit)
+2026-10-03T02:32+03:00,f4b879a5,LOG.md,edit,~2,265,~1200,~350 (pencere),-,O26 devir bloğu
+2026-10-03T02:32+03:00,f4b879a5,DEVR.md,edit,~4,60,~1800,~500,-,O26 §6 devir bölümü
+2026-10-03T02:32+03:00,f4b879a5,STATE.md,edit,~1,30,~400,~150 (pencere),-,O25/O26 DEVR pointer
+2026-10-03T02:32+03:00,f4b879a5,context-snapshots.csv,read,15,15,~2000,~500,-,O26 satırı doğrulaması
+2026-10-03T02:32+03:00,f4b879a5,context-ledger.csv,read,33,33,~3500,~900,-,O26 satırları doğrulaması (tam dosya)
+2026-10-03T02:32+03:00,f4b879a5,SKILL.md (introspection),read,120,280,~4200,~1200,K7 istisna (araç argümanları gerekli),read_session argümanları
+2026-10-03T02:32+03:00,f4b879a5,CSV append (snapshot+ledger),shell,~8,-,~900,~250,K2c+K6+K9,turn kayıtları (bu satırlar)
