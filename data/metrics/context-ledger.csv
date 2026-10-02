@@ -28,3 +28,6 @@ ts_iso,session,dosya,islem,okunan_satir,toplam_satir,bytes,tok_tahmini,kural,ger
 2026-10-02T23:16+03:00,O20,PROTOCOL.md,replace,92,92,~11500,~3000,-,nihai K kararlari + distille 101→92; K9 self-audit gec kayit (onceki turda append edilmemis)
 2026-10-02T23:16+03:00,O20,rapor.md,replace(new),76,76,~9000,~2500,-,nihai karar raporu (yeni dosya, onceki tur); K9 self-audit gec kayit
 2026-10-02T23:30+03:00,5eb12d70,hazirlik-1009.md,replace(new),44,44,~3600,~1200,-,10-09 hazırlık denetimi (yeni dosya)
+2026-10-03T02:11+03:00,O26,boot turlari (README+PROTOCOL+STATE+TASKS+DEVR.md),read,314,314,~40000,~11000,boot (K2 istisna),O26 boot — zorunlu okumalar (O19 dersi)
+2026-10-03T02:11+03:00,O26,arama turlari (kaldirac/MTP/128k + DATA-POLICY §6 + baseline),search,~45,~45,~4500,~1500,-,kaldirac ayar listesi + sessiz-stop mekanizmasi dogrulamasi
+2026-10-03T02:11+03:00,O26,edit turlari (STATE+TASKS+DECISIONS+DEVR),edit,142,142,~22000,~6500,K2-batch OK,O26 onay kayitlari (4 dosya, her biri TEK coklu-edit)
