@@ -1,0 +1,9 @@
+# Worker model — B senaryosu (CPU-only, Ollama port 11434)
+# 2026-10-01: local GGUF import bu ortamda "invalid model name" hatası verdi → registry'den qwen3:8b
+FROM qwen3:8b
+# SERT KURAL: GPU dolu (27B ana model) → worker TAMAMEN CPU'da çalışsın
+PARAMETER num_gpu 0
+# CPU RAM bütçesi: 31 GB / ~11 GB boş → ctx mütevazı tut
+PARAMETER num_ctx 8192
+# Worker çıktıları tutarlı olsun
+PARAMETER temperature 0.3

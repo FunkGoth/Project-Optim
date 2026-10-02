@@ -1,0 +1,30 @@
+ts_iso,session,dosya,islem,okunan_satir,toplam_satir,bytes,tok_tahmini,kural,gerekce
+2026-10-02T20:05+03:00,768b9104,STATE.md,edit,30,30,~1100,~900 (3x ~300 tam dosya yansima),K2-batch İHLAL,veri hijyeni duzenlemesi — 3 ayri edit tek coklu-edit olabilirdi (~600 tok fazla)
+2026-10-02T20:06+03:00,768b9104,TASKS.md,edit,33,33,~9200,~2500 (tam dosya yansima),-,arsiv tasima + aktif guncelleme
+2026-10-02T20:08+03:00,768b9104,LOG.md,edit,~10,221,~300,~250 (pencere),-,veri duzeltme kaydi
+2026-10-02T20:09+03:00,768b9104,context-snapshots.csv,edit,4,4,~600,~250 (tam dosya),-,59k tepe guncellemesi
+2026-10-02T20:20+03:00,768b9104,PROTOCOL.md,read,99,99,~13400,~3500,K2 istisna (edite gerek),K2/K9 kural ekleri icin tam okuma
+2026-10-02T20:20+03:00,768b9104,context-benchmark.md,read,34,34,~3900,~1000,K2 istisna (edite gerek),K1/K6/K8-K9 ekleri icin tam okuma
+2026-10-02T20:30+03:00,s8,LOG.md,edit,~6,221,~250 (pencere),~250,K9 self-audit,59k tepe + 4 madde onay + tutarlik notu + SIRADAKI kaydi
+2026-10-02T20:31+03:00,s8,TASKS.md,edit,33,33,~9200,~2500 (tam dosya yansima),K2-batch OK (tek coklu-edit),K1-K9 birlesme + nihai karar oturumu satiri
+2026-10-02T20:31+03:00,s8,STATE.md,edit,30,30,~1100,~300 (tek coklu-edit),K2-batch OK (tek coklu-edit),K1-K9 + nihai karar + bütçe/LOG tutarlik notu
+2026-10-02T21:25+03:00,s8,context-snapshots.csv,edit,5,5,~1400,~400 (pencere),-,K6 4. snapshot (32612) + self-audit bu satiri
+2026-10-02T21:35+03:00,s9,PROTOCOL.md,read,120,120,~15000,~4000,boot,oturum baslangici (PROTOCOL→STATE→TASKS)
+2026-10-02T21:36+03:00,s9,STATE.md,read,30,30,~1400,~350,boot,-
+2026-10-02T21:36+03:00,s9,TASKS.md,read,33,33,~9200,~2300,boot,-
+2026-10-02T21:50+03:00,s9,STATE.md,edit,~1,30,~300,~300 (pencere),-,baslik→Oturum 19 + devir-sablonu onerisi
+2026-10-02T21:50+03:00,s9,LOG.md,edit,~7,226+,~900,~300 (pencere),-,Oturum 19 boot hatasi analizi
+2026-10-02T21:50+03:00,s9,lessons.md,edit,~1,19,~500,~200 (pencere),-,boot kapsam hatasi dersi
+2026-10-02T21:50+03:00,s9,context-snapshots.csv,edit,~1,6,~500,~250 (pencere),-,K6 O19 snapshot (deg=1)
+2026-10-02T22:00+03:00,s9,PROTOCOL.md,edit,~4,101,~900,~400 (3 pencere),K2-batch OK (tek coklu-edit),devir TAM YOL + arama-koku kurali + Protokol Degisiklikleri
+2026-10-02T22:00+03:00,s9,lessons.md,edit,~1,20,~300,~200 (pencere),-,"→ PROTOCOL'e alindi" isareti
+2026-10-02T22:00+03:00,s9,LOG.md,edit,~1,232,~500,~250 (pencere),-,ONAY+UYGULANDI kaydi
+2026-10-02T22:00+03:00,s9,STATE.md,edit,~1,30,~300,~300 (pencere),-,ONERİ→UYGULANDI
+2026-10-02T22:06+03:00,s9,context-snapshots.csv,edit,~1,7,~400,~200 (pencere),-,K6 O19 2. snapshot (45359)
+2026-10-02T22:15+03:00,O20,PROTOCOL.md,read,140,140,~9000,~3500,K9,boot: tam okuma zorunlu (PROTOCOL/STATE/TASKS boot sirasi)
+2026-10-02T22:15+03:00,O20,STATE.md,edit,~1,~50,~450,~200 (pencere),-,O20 basligi + siradaki adim
+2026-10-02T22:15+03:00,O20,context-snapshots.csv,edit,~1,10,~450,~200 (pencere),-,K6 O20 1. snapshot (19074)
+2026-10-02T22:19+03:00,O20,context-snapshots.csv,edit,~1,11,~500,~200 (pencere),-,K6 O20 2. snapshot (28552)
+2026-10-02T23:16+03:00,O20,PROTOCOL.md,replace,92,92,~11500,~3000,-,nihai K kararlari + distille 101→92; K9 self-audit gec kayit (onceki turda append edilmemis)
+2026-10-02T23:16+03:00,O20,rapor.md,replace(new),76,76,~9000,~2500,-,nihai karar raporu (yeni dosya, onceki tur); K9 self-audit gec kayit
+2026-10-02T23:30+03:00,5eb12d70,hazirlik-1009.md,replace(new),44,44,~3600,~1200,-,10-09 hazırlık denetimi (yeni dosya)
